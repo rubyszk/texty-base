@@ -1,3 +1,8 @@
+import './Styles.css';
+import MessageUI from './components/messageUI';
+import ComposeMessage from './components/composeMessage';
+import UserList from './components/userList';
+
 const { useEffect, useState } = require("react");
 
 function App() {
@@ -22,6 +27,9 @@ function App() {
   return (
     <div className="App">
       {JSON.stringify(messages)}
+      <UserList users={users}/>
+      <MessageUI />
+      <ComposeMessage/>
     </div>
   )
 }
