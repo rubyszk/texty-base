@@ -1,2 +1,2 @@
-# texty-base
-base of text
+# Texty-base
+Base application repo for texting application.
